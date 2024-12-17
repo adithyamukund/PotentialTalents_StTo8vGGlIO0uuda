@@ -33,4 +33,4 @@ Scalability: The current solution requires a separate model for each search term
 Improvement Potential: Fine-tuning an LLM and incorporating more candidate data (e.g., detailed job descriptions) can further enhance the model.
 
 ## Conclusion
-The deliverable is an LTR neural network tailored for specific search terms, which serves as a foundation for a scalable ranking solution. While the current approach works effectively for limited terms, future extensions can address scalability and data richness to improve utility for recruiters.
+The deliverable is an LTR neural network tailored for specific search terms, which serves as a foundation for a scalable ranking solution. Specifically, the LTR neural network should be trained on 50 dimensional glove embeddings for the job titles and the cosine similarities to each search term. This implies that there is a separate LTR neural network for each search term. While the current approach works effectively for limited terms, future extensions can address scalability and data richness to improve utility for recruiters.
